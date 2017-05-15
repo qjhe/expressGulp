@@ -1,0 +1,51 @@
+{
+  "name": "expressgulp",
+  "version": "1.0.1",
+  "description": "express nodeJs hbs模板",
+  "main": "app.js",
+  "dependencies": {
+    "amui-hbs-helper": "^2.2.0",
+    "body-parser": "^1.17.1",
+    "browser-sync": "^2.18.8",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-replace": "^0.5.4",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.1.1",
+    "gulp-rev-format": "^1.0.4",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-seajs-concat": "^1.0.5",
+    "gulp-seajs-transport": "^0.4.0",
+    "gulp-uglify": "^2.1.2",
+    "handlebars": "^4.0.8",
+    "hbs": "^4.0.1",
+    "jquery": "^3.2.1",
+    "merge-stream": "^1.0.1",
+    "multer": "^1.3.0",
+    "seajs": "^3.0.2",
+    "session": "^0.1.0",
+    "yargs": "^7.0.2"
+  },
+  "devDependencies": {
+    "gulp-rev-append": "^0.1.8",
+    "http": "0.0.0"
+  },
+  "scripts": {
+    "注释": "npm run test以debug形式启动，另打开cmd命令node-inspector -p 8081 启动断点调试命令",
+    "test": "supervisor --debug app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "hbs"
+  ],
+  "author": "qjh",
+  "license": "ISC"
+}

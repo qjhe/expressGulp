@@ -1,0 +1,1 @@
+function getIndex(n){console.log(n.length)}var index="asdfaasd";
